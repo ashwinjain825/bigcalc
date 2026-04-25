@@ -1,0 +1,10 @@
+README.md
+setup.py
+bigcalc/__init__.py
+bigcalc/convert.py
+bigcalc/mat.py
+bigcalc/trig.py
+bigcalc.egg-info/PKG-INFO
+bigcalc.egg-info/SOURCES.txt
+bigcalc.egg-info/dependency_links.txt
+bigcalc.egg-info/top_level.txt
