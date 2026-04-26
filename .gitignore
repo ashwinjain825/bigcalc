@@ -131,6 +131,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+/bigcalc/__pycache__/
+/build/
+
 
 # Spyder project settings
 .spyderproject
