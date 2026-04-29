@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="bigcalc",
-    version="0.1.1",
+    version="0.1.5",
     author="Ashwin Jain",
     author_email="ashwinjain825@gmail.com",
     description="Advanced mathematical python library",
