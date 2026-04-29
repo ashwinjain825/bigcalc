@@ -29,7 +29,8 @@ pip install bigcalc
 ## Quick Start
 
 ```python
-from bigcalc import trig, mat, convert
+from bigcalc import trig, mat, convert, about
+
 
 # Trigonometry
 print(trig.sin(30))           # sin(30°) → ~0.5
@@ -114,6 +115,22 @@ All conversion functions follow the signature: `convert.<category>(value, from_u
 | Angle | `convert.angle()` | `deg`, `rad` |
 | Frequency | `convert.frequency()` | `Hz`, `kHz`, `MHz`, `GHz` |
 | Force | `convert.force()` | `N`, `dyne` |
+
+---
+
+
+### `bigcalc.about` — Get About this Library
+
+This module provides a function to retrieve information about the bigcalc library, including version, author, and description.
+
+| Function | Description |
+|---|---|
+| `about.name()` | Returns the name of lib |
+| `about.version()` | Returns the current version of bigcalc |
+| `about.author()` | Returns the author's name and contact information |
+| `about.author_email()` | Returns the author's email address |
+| `about.description()` | Returns a brief description of bigcalc |
+| `about.python_requires()` | Returns the minimum required Python version |
 
 ---
 

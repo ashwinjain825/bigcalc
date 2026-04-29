@@ -611,6 +611,19 @@ convert.frequency(2400, "MHz", "GHz") # → 2.4
 convert.force(1, "N", "dyne")        # → 100000.0
 ```
 
+### `bigcalc.about` — Get About this Library
+
+This module provides a function to retrieve information about the bigcalc library, including version, author, and description.
+
+| Function | Description |
+|---|---|
+| `about.name()` | Returns the name of lib |
+| `about.version()` | Returns the current version of bigcalc |
+| `about.author()` | Returns the author's name and contact information |
+| `about.author_email()` | Returns the author's email address |
+| `about.description()` | Returns a brief description of bigcalc |
+| `about.python_requires()` | Returns the minimum required Python version |
+
 ---
 
 ## Error Code Reference
